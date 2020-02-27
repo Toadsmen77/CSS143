@@ -10,6 +10,7 @@ public class BinaryTree {
     TreeNode root;
 
     public BinaryTree() {
+    	System.out.println(); //random
         root = null;
     }
 
