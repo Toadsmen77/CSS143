@@ -1,3 +1,4 @@
+///Code is changed
 import org.junit.Test;
 import java.util.Arrays;
 import static org.junit.Assert.*;
@@ -5,7 +6,8 @@ import static org.junit.Assert.*;
 public class Main {
 
     public static void main(String[] args) {
-        // left empty on purpose
+        // changed
+    	System.out.println();
     }
 
     @Test
@@ -19,6 +21,9 @@ public class Main {
         assertTrue(Arrays.equals(inputs, expects));
     }
 
+    
+    
+    
 	// to sort in ascending order
     public static void bubbleSort(int[] data) {
 		// check data size
@@ -26,6 +31,7 @@ public class Main {
 			return;
 		}
 
+		//Changed
 		// sort
         for (int i=0; i<data.length; i++) {
             for (int j=0; j<data.length-i-1; j++) {
