@@ -1,2 +1,2 @@
-# CSS143
-css143
+# CSS143 - Binary Tree Homework
+
